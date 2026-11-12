@@ -1,26 +1,30 @@
 # Hi, I'm Chang Zhou 👋
 
-I am a Computer Science student at the University of Wisconsin–Madison, graduating in May 2027. My work sits at the intersection of **software engineering, backend infrastructure, and efficient AI systems**. I have worked on backend and cloud infrastructure at ByteDance and Huawei Cloud, and I enjoy turning research ideas into systems that can be tested, measured, and deployed.
+I am a Computer Science student at the University of Wisconsin–Madison, graduating in May 2027. I build **reliable software systems and efficient AI applications**, with work spanning backend services, cloud-native infrastructure, Android and web development, and empirical research on LLM agents.
 
-## Current Focus
-
-I lead [ARFA](https://github.com/ChangIsHere/ARFA), a research project on residual-guided model selection for terminal-based coding agents. ARFA compares an agent's expected and observed execution outcomes to decide whether the next step needs a fast or slow model. Across selected model pairs on InterCode NL2Bash, the approach reduced slow-model calls by roughly **41–50%** while preserving or improving task success; the results also show why routing quality depends on the model pair rather than model size alone.
+I enjoy taking a problem from architecture to implementation: defining data models and APIs, building user-facing features, integrating external services, deploying the system, and evaluating whether it works under realistic conditions. My current work includes residual-guided reasoning for coding agents, diagnostic software for connected medical systems, AI-assisted knowledge tools, and collaborative mobile applications.
 
 ## Selected Work
 
-| Project | What it does | Technologies |
+| Project | My contribution | Technologies |
 |---|---|---|
-| [ARFA](https://github.com/ChangIsHere/ARFA) | Routes terminal-agent reasoning between fast and slow models using execution residuals; includes controlled experiments, statistical analysis, reproducible configurations, and deployment scripts. | Python, LLM agents, InterCode, Docker, Kubernetes |
-| [AI Resume Customizer](https://github.com/ChangIsHere/Resume_Optimizer) | Extracts requirements from a job description, adapts a PDF resume with Gemini, and generates a formatted PDF locally. | Python, Gemini API, ReportLab |
-| [State Carousel Interaction System](https://github.com/ChangIsHere/State-Carousel-Interaction-System) | A mobile carousel interface backed by a REST API for retrieving and displaying state data. | TypeScript, React Native, Expo, Node.js, Express |
-| [Allegheny County Safety Assessment](https://github.com/ChangIsHere/Allegheny-County-Safety-factor-assessment-) | Analyzes public crime, assistance, and school-enrollment data to compare neighborhood safety indicators. | Python, Jupyter, public datasets |
+| [ARFA](https://github.com/ChangIsHere/ARFA) | Lead the design, implementation, experimentation, and analysis of a residual-guided routing system for terminal-based coding agents. Across selected InterCode NL2Bash model pairs, ARFA reduced slow-model calls by approximately **41–50%** while preserving or improving task success. | Python, LLM agents, InterCode, statistical evaluation, Docker, Kubernetes |
+| [Portrait IQ — GE HealthCare Sponsored Capstone](https://github.com/nehasrinivasula/portrait-iq) | Contribute to an end-to-end diagnostic platform for the Portrait Mobile ecosystem. My work includes local authentication and protected routes, audit logging, log-filter interfaces, time-range controls, automated tests, and diagnostic-job recovery across sessions. | Python, FastAPI, React, TypeScript, SQLite, Docker, Kubernetes/K3s |
+| [NodeTree](https://www.nodetree.io) | Contributed to an AI-driven visual knowledge platform that helps users structure research, develop ideas through branching knowledge trees, and collaborate with AI during knowledge work. | TypeScript, JavaScript, React, Next.js, AI APIs |
+| **FridgeKeeper** · UW–Madison CS 407 | Lead a four-person Android team and own core full-stack integration. Built Firebase authentication and Firestore workflows for household membership, real-time shared inventories, shopping lists, and price reports; also integrated maps, location services, and external product APIs. Source is hosted in a UW–Madison course GitLab repository. | Kotlin, Jetpack Compose, ViewModel, StateFlow, coroutines, Firebase, Google Maps, Retrofit |
+
+## Research Focus
+
+My current research centers on **efficient and dependable LLM agents**. In [ARFA](https://github.com/ChangIsHere/ARFA), I study whether the gap between an agent's expected and observed execution outcomes can determine when deeper reasoning is actually necessary. The repository contains reproducible configurations, controlled baselines, statistical analyses, deployment scripts, and evidence supporting each reported result.
 
 ## Technical Toolkit
 
-- **Languages:** Python, Java, Kotlin, C/C++, TypeScript, JavaScript, SQL
-- **Backend and infrastructure:** Spring Boot, Node.js, REST APIs, Docker, Kubernetes, Kafka, Redis, AWS, Firebase
-- **AI and data:** PyTorch, Transformers, LLM agents, experiment design, statistical evaluation
-- **Application development:** React, Next.js, React Native, Expo, Jetpack Compose
+- **Languages:** Python, Java, Kotlin, TypeScript, JavaScript, C/C++, SQL, R, MATLAB
+- **Backend and data:** FastAPI, Spring Boot, Node.js, Express, REST APIs, Firebase Authentication, Cloud Firestore, SQLite, Kafka, Redis
+- **AI and machine learning:** PyTorch, Hugging Face Transformers, scikit-learn, pandas, NumPy, Jupyter, LLM agents, RAG, model evaluation, experimental design
+- **Cloud and systems:** Docker, Kubernetes/K3s, AWS, Linux, GitHub Actions, Git, GitHub, GitLab
+- **Web and mobile:** React, Next.js, React Native, Expo, Android, Jetpack Compose
+- **Engineering practices:** API design, asynchronous programming, automated testing, reproducible experiments, CI workflows, Agile/Scrum collaboration
 
 ## Education
 
